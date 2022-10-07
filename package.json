@@ -1,5 +1,5 @@
 {
-  "name": "google-pub-sub-notification",
+  "name": "onapply",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,19 +7,12 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/valdiearsanur/google-pub-sub-notification.git"
-  },
   "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/valdiearsanur/google-pub-sub-notification/issues"
-  },
-  "homepage": "https://github.com/valdiearsanur/google-pub-sub-notification#readme",
+  "license": "ISC",
   "dependencies": {
     "@google-cloud/pubsub": "^3.0.1",
-    "dotenv": "^16.0.1",
+    "cors": "^2.8.5",
+    "docker": "^1.0.0",
     "express": "^4.18.1"
   }
 }
